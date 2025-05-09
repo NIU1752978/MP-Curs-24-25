@@ -5,5 +5,6 @@
 
 void llegeixTauler(const string& nomFitxer, char tauler[N_FILES][N_COLUMNES]);
 void escriuTauler(const string& nomFitxer, char tauler[N_FILES][N_COLUMNES]);
+void inicialitzaTauler(char tauler[N_FILES][N_COLUMNES]);
 
 #endif // TAULER_H

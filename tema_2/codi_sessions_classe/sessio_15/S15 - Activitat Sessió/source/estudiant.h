@@ -6,8 +6,8 @@ using namespace std;
 class Estudiant
 {
 public:
-	Estudiant();
-    Estudiant(const string& niu, const string& nom, int nAssignatures);
+	Estudiant() : m_NIU(""), m_nom(""), m_assignatures(nullptr), m_nAssignatures(0), m_maxAssignatures(0) {}
+    Estudiant(const string& niu, const string& nom, int nAssignatures) {}
 	~Estudiant();
 
 	Estudiant& operator=(const Estudiant& e);

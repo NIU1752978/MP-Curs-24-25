@@ -1,0 +1,220 @@
+﻿  Data.cpp
+  main.cpp
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,8): error C2143: error de sintaxis: falta ';' delante de '&'
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,10): error C2473: 'operator >>': parece una definición de función, pero no hay ninguna lista de parámetros.
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,30): error C2065: 'input': identificador no declarado
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,43): error C2065: 'data': identificador no declarado
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,37): error C2275: 'Data': se esperaba una expresión en lugar de un tipo
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,20): error C2440: 'inicializando': no se puede realizar la conversión de 'initializer list' a 'int &'
+  (compilando archivo de origen "Data.cpp")
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,20):
+      Un tipo de referencia no se puede inicializar con valores
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,8): error C2143: error de sintaxis: falta ';' delante de '&'
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10): error C2473: 'operator <<': parece una definición de función, pero no hay ninguna lista de parámetros.
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,30): error C2065: 'output': identificador no declarado
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,38): error C2059: error de sintaxis: 'const'
+  (compilando archivo de origen "Data.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(9,2): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(9,2):
+      o       '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(10,2): error C2872: '>>': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,10):
+      puede ser 'int &>>'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(10,2):
+      o       '>>'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(11,2): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(11,2):
+      o       '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(12,2): error C2872: '>>': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,10):
+      puede ser 'int &>>'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(12,2):
+      o       '>>'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(13,2): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(13,2):
+      o       '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(14,2): error C2872: '>>': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,10):
+      puede ser 'int &>>'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(14,2):
+      o       '>>'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,1): error C2872: 'istream': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,1):
+      puede ser 'int istream'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iosfwd(230,19):
+      o       'std::istream'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,8): error C2143: error de sintaxis: falta ';' delante de '&'
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,1): error C2086: 'int istream': nueva definición
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,1):
+      vea la declaración de 'istream'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,21): error C2872: 'istream': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,1):
+      puede ser 'int istream'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iosfwd(230,19):
+      o       'std::istream'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,10): error C2473: 'operator >>': parece una definición de función, pero no hay ninguna lista de parámetros.
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,10): error C2374: '>>': nueva definición; inicialización múltiple
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,10):
+      vea la declaración de '>>'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,30): error C2065: 'input': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(248,37): error C2275: 'Data': se esperaba una expresión en lugar de un tipo
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(249,1): error C2059: error de sintaxis: '{'
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(249,1): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(249,1): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,1): error C2872: 'ostream': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,1):
+      puede ser 'int ostream'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iosfwd(231,19):
+      o       'std::ostream'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,8): error C2143: error de sintaxis: falta ';' delante de '&'
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,1): error C2086: 'int ostream': nueva definición
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,1):
+      vea la declaración de 'ostream'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,21): error C2872: 'ostream': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,1):
+      puede ser 'int ostream'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iosfwd(231,19):
+      o       'std::ostream'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,10): error C2473: 'operator <<': parece una definición de función, pero no hay ninguna lista de parámetros.
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,10): error C2374: '<<': nueva definición; inicialización múltiple
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      vea la declaración de '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,30): error C2065: 'output': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(259,38): error C2059: error de sintaxis: 'const'
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(260,1): error C2143: error de sintaxis: falta ';' delante de '{'
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.cpp(260,1): error C2447: '{': falta el encabezado de función (¿lista formal de estilo anterior?)
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,8): error C2143: error de sintaxis: falta ';' delante de '&'
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,10): error C2473: 'operator >>': parece una definición de función, pero no hay ninguna lista de parámetros.
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,30): error C2065: 'input': identificador no declarado
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,43): error C2065: 'data': identificador no declarado
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,37): error C2275: 'Data': se esperaba una expresión en lugar de un tipo
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,20): error C2440: 'inicializando': no se puede realizar la conversión de 'initializer list' a 'int &'
+  (compilando archivo de origen "main.cpp")
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(29,20):
+      Un tipo de referencia no se puede inicializar con valores
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,8): error C2143: error de sintaxis: falta ';' delante de '&'
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10): error C2473: 'operator <<': parece una definición de función, pero no hay ninguna lista de parámetros.
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,30): error C2065: 'output': identificador no declarado
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,38): error C2059: error de sintaxis: 'const'
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(15,3): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(15,3):
+      o       '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(15,8): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(15,8):
+      o       '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(15,36): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(15,36):
+      o       '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(19,3): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(19,3):
+      o       '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(19,8): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(19,8):
+      o       '<<'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(19,35): error C2872: '<<': símbolo ambiguo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\Data.h(30,10):
+      puede ser 'int &<<'
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_9\exemple_classe_data\main.cpp(19,35):
+      o       '<<'
+  
+  Generando código...

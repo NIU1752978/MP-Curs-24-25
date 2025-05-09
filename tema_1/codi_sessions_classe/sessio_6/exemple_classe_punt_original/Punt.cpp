@@ -6,17 +6,31 @@ using namespace std;
 
 void Punt::llegeix()
 {
-    cout << "Introdueix les coordenades del punt : ";
-	cin >> m_x >> m_y;
+	cout << "Introdueix la dimensió del punt: ";
+	cin >> m_nDimensions;
+
+	for (int i = 0; i < m_nDimensions; i++)
+	{
+		cout << "Introdueix les coordenades del punt: ";
+		cin >> m_coordenades[i];
+	}
+  
 }
 
 void Punt::mostra()
 {
-	cout << "(" << m_x << ", " << m_y << ")";
+	for (int i = 0; i < m_nDimensions; i++)
+	{
+		cout << "(" << m_coordenades[i] << ")";
+	}
 }
 
 float Punt::distancia(Punt &p)
 {
+	for (int i = 0; i < m_nDimensions; i++)
+	{
+		float diferencia = distancia + m_coordenades[i]
+	}
     float distancia = (m_x * m_x) + (m_y * m_y);
     return sqrt(distancia);
 }

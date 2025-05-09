@@ -1,0 +1,26 @@
+{
+    "output": "Inicialitzem l'assignatura amb el constructor amb els estudiants seguents....\nNIU_1, NOM_1\nNIU_2, NOM_2\nNIU_3, NOM_3\n-------------------------------------------------\nAfegim amb el metode afegeixEStudiant l'estudiant NIU_4, NOM_4\n-------------------------------------------------\n",
+    "score": 10.0,
+    "stdout_visibility": "hidden",
+    "tests": [
+        {
+            "name": "TEST AFEGEIX NOTA",
+            "output": "\n-----------------------------------------------\nTest del metode afegeixNota \n-----------------------------------------------\n\nTEST 1\n-----------------------------------------------\nNiu estudiant: NIU_1\nNota introduida: 5\n----------\nResultat esperat: CERT\n----------\nResultat obtingut: CERT\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 2\n-----------------------------------------------\nNiu estudiant: NIU_2\nNota introduida: 4.5\n----------\nResultat esperat: CERT\n----------\nResultat obtingut: CERT\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 3\n-----------------------------------------------\nNiu estudiant: NIU_3\nNota introduida: 6.5\n----------\nResultat esperat: CERT\n----------\nResultat obtingut: CERT\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 4\n-----------------------------------------------\nNiu estudiant: NIU_5\nNota introduida: 7.5\n----------\nResultat esperat: FALS\n----------\nResultat obtingut: FALS\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 5\n-----------------------------------------------\nNiu estudiant: NIU_2\nNota introduida: 5\n----------\nResultat esperat: CERT\n----------\nResultat obtingut: CERT\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 6\n-----------------------------------------------\nNiu estudiant: NIU_2\nNota introduida: 5.5\n----------\nResultat esperat: CERT\n----------\nResultat obtingut: CERT\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 7\n-----------------------------------------------\nNiu estudiant: NIU_2\nNota introduida: 7\n----------\nResultat esperat: CERT\n----------\nResultat obtingut: CERT\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 8\n-----------------------------------------------\nNiu estudiant: NIU_2\nNota introduida: 8\n----------\nResultat esperat: CERT\n----------\nResultat obtingut: CERT\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 9\n-----------------------------------------------\nNiu estudiant: NIU_2\nNota introduida: 6\n----------\nResultat esperat: FALS\n----------\nResultat obtingut: FALS\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST CALCULA NOTA MITJANA",
+            "output": "\n-----------------------------------------------\nTest del metode calculaNotaMitjana \n-----------------------------------------------\n\nTEST 1\n-----------------------------------------------\nNiu estudiant: NIU_1\n----------\nResultat esperat: 5\n----------\nResultat obtingut: 5\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 2\n-----------------------------------------------\nNiu estudiant: NIU_2\n----------\nResultat esperat: 6\n----------\nResultat obtingut: 6\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 3\n-----------------------------------------------\nNiu estudiant: NIU_4\n----------\nResultat esperat: -1\n----------\nResultat obtingut: -1\n----------\nCORRECTE\n-----------------------------------------------\n\nTEST 4\n-----------------------------------------------\nNiu estudiant: NIU_5\n----------\nResultat esperat: -1\n----------\nResultat obtingut: -1\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST RECUPERA PROFESSOR",
+            "output": "\n-----------------------------------------------\nTest del metode recuperaProfessor \n-----------------------------------------------\n\nNom professor esperat: PROF_1\nMail professor esperat: MAIL_1\nDespatx professor esperat: DESPATX_1\n----------\nNom professor obtingut: PROF_1\nMail professor obtingut: MAIL_1\nDespatx professor obtingut: DESPATX_1\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        }
+    ],
+    "visibility": "visible"
+}

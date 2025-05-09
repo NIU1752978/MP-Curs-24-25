@@ -1,0 +1,27 @@
+﻿  main.cpp
+  Punt.cpp
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(17,17): error C2065: 'm_x': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(17,32): error C2065: 'm_y': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(22,24): error C2065: 'm_x': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(22,30): error C2065: 'm_x': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(22,38): error C2065: 'm_y': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(22,44): error C2065: 'm_y': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(29,8): error C2039: "m_x": no es un miembro de "Punt"
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.h(6,7):
+      vea la declaración de 'Punt'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(29,14): error C2065: 'm_x': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(29,22): error C2039: "m_x": no es un miembro de "Punt"
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.h(6,7):
+      vea la declaración de 'Punt'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(30,8): error C2039: "m_y": no es un miembro de "Punt"
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.h(6,7):
+      vea la declaración de 'Punt'
+  
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(30,14): error C2065: 'm_y': identificador no declarado
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.cpp(30,22): error C2039: "m_y": no es un miembro de "Punt"
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_1\codi_sessions_classe\sessio_6\exemple_classe_punt_original\Punt.h(6,7):
+      vea la declaración de 'Punt'
+  
+  Generando código...

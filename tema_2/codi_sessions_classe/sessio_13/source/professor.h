@@ -14,6 +14,9 @@ public:
     string getNom() { return m_nom; }
     string getMail() { return m_mail; }
     string getDespatx() { return m_despatx; }
+	void setNom(const string& nom) { m_nom = nom; }
+	void setMail(const string& mail) { m_mail = mail; }
+	void setDespatx(const string& despatx) { m_despatx = despatx; }
 private:
     string m_nom;
     string m_mail;

@@ -11,9 +11,10 @@ const int MAX_TASQUES = 100;
 class GestioProjecte 
 {
 public:
-    GestioProjecte(): m_nTasques(0) {} ;
-    void afegeixTasca(const string& nom, int duradaPrevista, const Data& dataActual, int nParticipants, 
-        string participants[MAX_PARTICIPANTS]);
+    GestioProjecte() : m_nTasques(0) {}
+    GestioProjecte(int nTasques, const Tasca tasques[MAX_TASQUES]) : m_nTasques(nTasques) {}
+
+    void afegeixTasca(const string& nom, int duradaPrevista, const Data& dataActual, int nParticipants, string participants[MAX_PARTICIPANTS]);
     void endarrereixTasca(const string& nom, int nDies);
     int completaTasca(const string& nom, const Data& dataActual);
     void tasquesPendents(const string& nom, const Data& dataActual, int nDies, int& nTasques, string tasques[]);
@@ -23,7 +24,5 @@ private:
     int m_nTasques;
     Tasca m_tasques[MAX_TASQUES];
 };
-
-
 
 #endif

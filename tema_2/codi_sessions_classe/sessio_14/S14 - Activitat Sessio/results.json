@@ -1,0 +1,37 @@
+{
+    "score": 10.0,
+    "stdout_visibility": "visible",
+    "tests": [
+        {
+            "name": "TEST INICIALITZACIO CLASSE SEIENT",
+            "output": " TEST INICIALITZACIO SEIENT\n --------------------------\n\n Inicialitzant un seient amb codi 1A\n ---\n Valor esperat del passatger despres d'inicialitzar: nullptr\n ---\n Valor obtingut del passatger despres d'inicialitzar: nullptr\n CORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST CLASSE SEIENT1",
+            "output": " TEST 1\n Afegint passatger al seient...\n Dades del passatger: dni_1, nom_1\n ---\n Valor retorn esperat: TRUE\n Passatger esperat: dni_1, nom_1\n ---\n Valor retorn obtingut: TRUE\n Passatger obtingut: dni_1, nom_1\n CORRECTE\n ------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST CLASSE SEIENT2",
+            "output": " TEST 2\n Afegint passatger al seient...\n Dades del passatger: dni_2, nom_2\n ---\n Valor retorn esperat: FALSE\n Passatger esperat: dni_1, nom_1\n ---\n Valor retorn obtingut: FALSE\n Passatger obtingut: dni_1, nom_1\n CORRECTE\n ------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST CLASSE SEIENT3",
+            "output": " TEST 3\n Eliminant el passatger del seient...\n ---\n Valor retorn esperat: TRUE\n Passatger esperat: nullptr\n ---\n Valor retorn obtingut: TRUE\n Passatger obtingut: nullptr\n CORRECTE\n ------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST CLASSE SEIENT4",
+            "output": " TEST 4\n Eliminant el passatger del seient...\n ---\n Valor retorn esperat: FALSE\n Passatger esperat: nullptr\n ---\n Valor retorn obtingut: FALSE\n Passatger obtingut: nullptr\n CORRECTE\n ------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        }
+    ],
+    "visibility": "visible"
+}

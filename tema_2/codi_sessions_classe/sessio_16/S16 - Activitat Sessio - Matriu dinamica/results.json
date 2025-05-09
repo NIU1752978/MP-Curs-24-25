@@ -1,0 +1,18 @@
+{
+    "score": 10.0,
+    "stdout_visibility": "visible",
+    "tests": [
+        {
+            "name": "TEST LLEGEIX I SUMA MATRIU DINAMICA",
+            "output": "Creant les matrius amb 5 files i 4 columnes...\n------------\nLlegint matriu m1 amb valors...\n1 2 3 4 \n5 6 7 8 \n9 10 11 12 \n13 14 15 16 \n17 18 19 20 \n------------\nValors llegits del fitxer...\n1 2 3 4 \n5 6 7 8 \n9 10 11 12 \n13 14 15 16 \n17 18 19 20 \n------------\nLlegint matriu m2 amb valors...\n1 1 1 1 \n2 2 2 2 \n3 3 3 3 \n4 4 4 4 \n5 5 5 5 \n------------\nValors llegits del fitxer...\n1 1 1 1 \n2 2 2 2 \n3 3 3 3 \n4 4 4 4 \n5 5 5 5 \n------------\nCalculant la suma de m1 + m2...\n-------------\nResultat esperat: \n2 3 4 5 \n7 8 9 10 \n12 13 14 15 \n17 18 19 20 \n22 23 24 25 \n------------\nResultat obtingut: \n2 3 4 5 \n7 8 9 10 \n12 13 14 15 \n17 18 19 20 \n22 23 24 25 \n-------------\nCORRECTE\n-----------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ALLIBERA MATRIU",
+            "output": "\nAlliberant totes les matrius...\n-----------------------------------------\n",
+            "visibility": "visible"
+        }
+    ],
+    "visibility": "visible"
+}

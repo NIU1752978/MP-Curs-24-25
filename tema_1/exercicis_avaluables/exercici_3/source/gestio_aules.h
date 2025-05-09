@@ -18,8 +18,12 @@ public:
     string aulaAssignatura(const string& codiAssignatura);
     void assignaturesAula(const string& codiAula, int& nAssignatures, string assignatures[]);
     void reservesAula(const string& codiAula, const string& nomFitxer);
+
 private:
- 
+	Aula m_aules[MAX_AULES];
+	Assignatura m_assignatures[MAX_ASSIGNATURES];
+	int m_nAules;
+	int m_nAssignatures;
 };
 
 

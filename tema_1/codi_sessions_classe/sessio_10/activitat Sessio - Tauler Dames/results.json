@@ -1,0 +1,19 @@
+{
+    "score": 10.0,
+    "stdout_visibility": "visible",
+    "tests": [
+        {
+            "name": "TEST LLEGIR TAULER",
+            "output": "\n\nIniciant test de LLEGIR TAULER\n==============================\nLlegint el tauler del fitxer\n----------\nContingut esperat del tauler:\n[ ,X, ,D, , , ,X]\n[ , , , , , ,X, ]\n[ , , , , ,X, , ]\n[R, , , , , , , ]\n[ , , , , , , ,O]\n[ , , , , , , , ]\n[ ,O, , , , , ,X]\n[O, ,O, ,D, , , ]\n----------\nContingut obtingut del tauler: \n----------\n[ ,X, ,D, , , ,X]\n[ , , , , , ,X, ]\n[ , , , , ,X, , ]\n[R, , , , , , , ]\n[ , , , , , , ,O]\n[ , , , , , , , ]\n[ ,O, , , , , ,X]\n[O, ,O, ,D, , , ]\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ESCRIURE TAULER",
+            "output": "\n\nIniciant test de ESCRIURE TAULER\n================================\nContingut del tauler original:\n[ ,X, ,D, , , ,X]\n[ , , , , , ,X, ]\n[ , , , , ,X, , ]\n[R, , , , , , , ]\n[ , , , , , , ,O]\n[ , , , , , , , ]\n[ ,O, , , , , ,X]\n[O, ,O, ,D, , , ]\n----------\nContingut esperat del fitxer: \nO a1\nO c1\nD e1\nO b2\nO h4\nD d8\nX b8\nX h8\nR a5\nX g7\nX f6\nX h2\n----------\nEscrivint el tauler al fitxer\n----------\nContingut obtingut del fitxer: \nX b8\nD d8\nX h8\nX g7\nX f6\nR a5\nO h4\nO b2\nX h2\nO a1\nO c1\nD e1\n\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        }
+    ],
+    "visibility": "visible"
+}

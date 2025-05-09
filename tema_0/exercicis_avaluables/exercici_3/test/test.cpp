@@ -28,7 +28,7 @@ bool comparaConjunt(string conjunt1[], int nElements1, string conjunt2[], int nE
     return iguals;
 }
 
-float testAssignacio(json& output)
+static float testAssignacio(json& output)
 {
     float reduccio = 0.0;
     Assignacio dadesAssignacio;
@@ -52,7 +52,7 @@ float testAssignacio(json& output)
     int nAssignatures = 4;
     string nomAssignatures[MAX_ASSIGNATURES] = {"ASSIG_1", "ASSIG_2", "ASSIG_3", "ASSIG_4"};
     int maxMatriculats[MAX_ASSIGNATURES] = {3, 5, 3, 3};
-    inicialitza(dadesAssignacio, nAssignatures, nomAssignatures, maxMatriculats);
+    inicialitza(dadesAssignacio, nomAssignatures, maxMatriculats, nAssignatures);
 
     outputParcial << endl;
     outputParcial << "INICIALITZACIO DE LES DADES D'ASSIGNATURES: " << endl;

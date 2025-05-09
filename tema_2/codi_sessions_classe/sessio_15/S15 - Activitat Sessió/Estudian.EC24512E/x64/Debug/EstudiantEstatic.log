@@ -1,0 +1,11 @@
+﻿  estudiant.cpp
+  titulacio.cpp
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_2\codi_sessions_classe\sessio_15\S15 - Activitat Sessió\source\estudiant.cpp(3,12): error C2084: la función 'Estudiant::Estudiant(const std::string &,const std::string &,int)' ya tiene un cuerpo
+      C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_2\codi_sessions_classe\sessio_15\S15 - Activitat Sessió\source\estudiant.h(10,5):
+      vea la definición anterior de “Estudiant::Estudiant”
+  
+  test.cpp
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_2\codi_sessions_classe\sessio_15\S15 - Activitat Sessió\test\test.cpp(164,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_2\codi_sessions_classe\sessio_15\S15 - Activitat Sessió\test\test.cpp(171,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  Generando código...
+C:\Users\usuari\Documents\ENGINYERIA INFORMÀTICA\MP\MP-Curs-24-25\tema_2\codi_sessions_classe\sessio_15\S15 - Activitat Sessió\source\titulacio.cpp(13,1): error C4716: 'Titulacio::eliminaEstudiant': debe devolver un valor

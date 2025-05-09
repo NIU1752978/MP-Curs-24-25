@@ -11,7 +11,8 @@ public:
     float distancia(Punt &p);
 	Punt suma(Punt& p);
 private:
-    float m_x, m_y;
+    float m_coordenades[MAX_DIMENSIONS];
+    int m_nDimensions;
 };
 
 #endif

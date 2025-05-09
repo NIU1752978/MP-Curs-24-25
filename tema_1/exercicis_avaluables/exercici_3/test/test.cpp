@@ -8,9 +8,6 @@
 using namespace std;
 using json = nlohmann::json;
 
-
-
-
 void mostraBool(bool valor, stringstream& outputParcial)
 {
 	if (valor)

@@ -1,0 +1,98 @@
+{
+    "output": "Inicialitzem les assignatures del fitxer assignatures.txt\n---------------------------------------------------------\nNoms de les assignatures: [ASSIG_1, ASSIG_2, ASSIG_3, ASSIG_4, ASSIG_5]\n----------\nInicialitzem els professors del fitxer professors.txt\n-----------------------------------------------------\nNoms dels professors: [PROF_1, PROF_2, PROF_3]\n----------\n",
+    "score": 10.0,
+    "stdout_visibility": "visible",
+    "tests": [
+        {
+            "name": "TEST AFEGEIX PROFESSOR 1",
+            "output": "TEST AFEGEIX PROFESSOR 1\nNom de l'assignatura: ASSIG_1\nNom del professor: PROF_1\n----------\nResultat esperat: CERT\nProfessor esperat de l'assignatura: PROF_1\n----------\nResultat obtingut: CERT\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: PROF_1\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST AFEGEIX PROFESSOR 2",
+            "output": "TEST AFEGEIX PROFESSOR 2\nNom de l'assignatura: ASSIG_1\nNom del professor: PROF_2\n----------\nResultat esperat: FALS\nMotiu de l'error: Professor no existeix\nProfessor esperat de l'assignatura: PROF_1\n----------\nResultat obtingut: FALS\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: PROF_1\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST AFEGEIX PROFESSOR 3",
+            "output": "TEST AFEGEIX PROFESSOR 3\nNom de l'assignatura: ASSIG_6\nNom del professor: PROF_1\n----------\nResultat esperat: FALS\nMotiu de l'error: Assignatura no existeix\nProfessor esperat de l'assignatura: \n----------\nResultat obtingut: FALS\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: \n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST AFEGEIX PROFESSOR 4",
+            "output": "TEST AFEGEIX PROFESSOR 4\nNom de l'assignatura: ASSIG_1\nNom del professor: PROF_5\n----------\nResultat esperat: FALS\nMotiu de l'error: Assignatura ja te professor\nProfessor esperat de l'assignatura: PROF_1\n----------\nResultat obtingut: FALS\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: PROF_1\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST AFEGEIX PROFESSOR 5",
+            "output": "TEST AFEGEIX PROFESSOR 5\nNom de l'assignatura: ASSIG_2\nNom del professor: PROF_2\n----------\nResultat esperat: CERT\nProfessor esperat de l'assignatura: PROF_2\n----------\nResultat obtingut: CERT\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: PROF_2\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST AFEGEIX PROFESSOR 6",
+            "output": "TEST AFEGEIX PROFESSOR 6\nNom de l'assignatura: ASSIG_3\nNom del professor: PROF_1\n----------\nResultat esperat: CERT\nProfessor esperat de l'assignatura: PROF_1\n----------\nResultat obtingut: CERT\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: PROF_1\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST AFEGEIX PROFESSOR 7",
+            "output": "TEST AFEGEIX PROFESSOR 7\nNom de l'assignatura: ASSIG_4\nNom del professor: PROF_3\n----------\nResultat esperat: CERT\nProfessor esperat de l'assignatura: PROF_3\n----------\nResultat obtingut: CERT\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: PROF_3\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ELIMINA PROFESSOR 1",
+            "output": "TEST ELIMINA PROFESSOR 1\nNom de l'assignatura: ASSIG_6\n----------\nResultat esperat: FALS\nMotiu de l'error: Assignatura no existeix\nProfessor esperat de l'assignatura: \n----------\nResultat obtingut: FALS\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: \n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ELIMINA PROFESSOR 2",
+            "output": "TEST ELIMINA PROFESSOR 2\nNom de l'assignatura: ASSIG_5\n----------\nResultat esperat: FALS\nMotiu de l'error: Assignatura sense professor\nProfessor esperat de l'assignatura: \n----------\nResultat obtingut: FALS\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: \n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ELIMINA PROFESSOR 3",
+            "output": "TEST ELIMINA PROFESSOR 3\nNom de l'assignatura: ASSIG_4\n----------\nResultat esperat: CERT\nProfessor esperat de l'assignatura: \n----------\nResultat obtingut: CERT\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: \n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST AFEGEIX PROFESSOR 8",
+            "output": "TEST AFEGEIX PROFESSOR 8\nNom de l'assignatura: ASSIG_4\nNom del professor: PROF_1\n----------\nResultat esperat: CERT\nProfessor esperat de l'assignatura: PROF_1\n----------\nResultat obtingut: CERT\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: PROF_1\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST AFEGEIX PROFESSOR 9",
+            "output": "TEST AFEGEIX PROFESSOR 9\nNom de l'assignatura: ASSIG_5\nNom del professor: PROF_2\n----------\nResultat esperat: CERT\nProfessor esperat de l'assignatura: PROF_2\n----------\nResultat obtingut: CERT\nRecuperem professor de l'assignatura amb el metode getProfessorAssignatura...\nProfessor obtingut de l'assignatura: PROF_2\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST RECUPERA ASSIGNATURES PROFESSOR 1",
+            "output": "TEST RECUPERA ASSIGNATURES PROFESSOR 1\nNom del professor: PROF_1\n----------\nNumero assignatures esperades: 3\nAssignatures esperades: [ASSIG_1, ASSIG_3, ASSIG_4]\n----------\nNumero assignatures obtingudes: 3\nAssignatures obtingures: [ASSIG_1, ASSIG_3, ASSIG_4]\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST RECUPERA ASSIGNATURES PROFESSOR 2",
+            "output": "TEST RECUPERA ASSIGNATURES PROFESSOR 2\nNom del professor: PROF_2\n----------\nNumero assignatures esperades: 2\nAssignatures esperades: [ASSIG_2, ASSIG_5]\n----------\nNumero assignatures obtingudes: 2\nAssignatures obtingures: [ASSIG_2, ASSIG_5]\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST RECUPERA ASSIGNATURES PROFESSOR 3",
+            "output": "TEST RECUPERA ASSIGNATURES PROFESSOR 3\nNom del professor: PROF_3\n----------\nNumero assignatures esperades: 0\nAssignatures esperades: []\n----------\nNumero assignatures obtingudes: 0\nAssignatures obtingures: []\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        }
+    ],
+    "visibility": "visible"
+}

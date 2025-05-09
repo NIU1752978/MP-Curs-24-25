@@ -1,0 +1,86 @@
+{
+    "output": "Llegim les assignatures seguents del fitxer assignatures.txt amb el metode inicialitzaAssignatures\n----------\nCodi: ASSIG_1\nN. matriculats: 30\nDia: DILLUNS\nHora inici: 10\nHora fi: 12\nSetmana inici: 1\nSetmana final: 10\n----------\nCodi: ASSIG_2\nN. matriculats: 50\nDia: DILLUNS\nHora inici: 10\nHora fi: 12\nSetmana inici: 1\nSetmana final: 10\n----------\nCodi: ASSIG_3\nN. matriculats: 50\nDia: DILLUNS\nHora inici: 11\nHora fi: 13\nSetmana inici: 2\nSetmana final: 10\n----------\nCodi: ASSIG_4\nN. matriculats: 50\nDia: DILLUNS\nHora inici: 10\nHora fi: 12\nSetmana inici: 1\nSetmana final: 15\n----------\nCodi: ASSIG_5\nN. matriculats: 50\nDia: DIMARTS\nHora inici: 10\nHora fi: 12\nSetmana inici: 1\nSetmana final: 15\n----------\nLlegim les aules seguents del fitxer aules.txt amb el metode inicialitzaAules\n----------\nCodi: AULA_1\nCapacitat: 120\n----------\nCodi: AULA_2\nCapacitat: 60\n---\nReserva 1\nDia: DIMARTS\nHora inici: 10\nHora fi: 12\nSetmana inici: 1\nSetmana final: 15\n----------\nCodi: AULA_3\nCapacitat: 40\n---\nReserva 1\nDia: DILLUNS\nHora inici: 11\nHora fi: 13\nSetmana inici: 2\nSetmana final: 8\n---\nReserva 2\nDia: DIJOUS\nHora inici: 10\nHora fi: 12\nSetmana inici: 1\nSetmana final: 15\n---\nReserva 3\nDia: DIVENDRES\nHora inici: 11\nHora fi: 13\nSetmana inici: 1\nSetmana final: 15\n----------\nCodi: AULA_4\nCapacitat: 100\n----------\n",
+    "score": 10.0,
+    "stdout_visibility": "visible",
+    "tests": [
+        {
+            "name": "TEST RESERVES AULA 1",
+            "output": "\n\nIniciant test metode reservesAula\n=================================\n\nReserves de l'aula AULA_3\n------------------------\nContingut esperat del fitxer: \nDILLUNS 11 13 2 8\nDIJOUS 10 12 1 15\nDIVENDRES 11 13 1 15\n----------\nEscrivint reserves al fitxer reserves_aula_3.txt\n----------\nContingut obtingut del fitxer: \nDILLUNS 11 13 2 8\nDIJOUS 10 12 1 15\nDIVENDRES 11 13 1 15\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNA AULA 1",
+            "output": "\n\nTEST ASSIGNA AULA 1\n====================\nCodi assignatura: ASSIG_1\n----------\nCodi aula esperada: AULA_2\n----------\nCodi aula obtinguda: AULA_2\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNA AULA 2",
+            "output": "\n\nTEST ASSIGNA AULA 2\n====================\nCodi assignatura: ASSIG_2\n----------\nCodi aula esperada: AULA_4\n----------\nCodi aula obtinguda: AULA_4\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNA AULA 3",
+            "output": "\n\nTEST ASSIGNA AULA 3\n====================\nCodi assignatura: ASSIG_3\n----------\nCodi aula esperada: AULA_1\n----------\nCodi aula obtinguda: AULA_1\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNA AULA 4",
+            "output": "\n\nTEST ASSIGNA AULA 4\n====================\nCodi assignatura: ASSIG_4\n----------\nCodi aula esperada: \n----------\nCodi aula obtinguda: \n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNA AULA 5",
+            "output": "\n\nTEST ASSIGNA AULA 5\n====================\nCodi assignatura: ASSIG_5\n----------\nCodi aula esperada: AULA_4\n----------\nCodi aula obtinguda: AULA_4\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ELIMINA RESERVA 1",
+            "output": "\n\nTEST ELIMINA RESERVA 1\n========================\nCodi assignatura: ASSIG_4\n----------\nResultat esperat: FALSE \n----------\nResultat obtingut: FALSE \n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ELIMINA RESERVA 2",
+            "output": "\n\nTEST ELIMINA RESERVA 2\n========================\nCodi assignatura: ASSIG_1\n----------\nResultat esperat: TRUE \n----------\nResultat obtingut: TRUE \n----------\nIntentem ara assignar una assignatura a l'aula alliberada\n----------\nCodi assignatura: ASSIG_4\n----------\nCodi aula esperada: AULA_2\n----------\nCodi aula assignada: AULA_2\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNATURES AULA 1",
+            "output": "\n\nTEST ASSIGNATURES AULA 1\n=========================\nCodi aula: AULA_1\n----------\nN. assignatures esperades: 1\nAssignatures esperades: [ASSIG_3]\n----------\nN. assignatures obtingudes: 1\nAssignatures obtingudes: [ASSIG_3]\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNATURES AULA 2",
+            "output": "\n\nTEST ASSIGNATURES AULA 2\n=========================\nCodi aula: AULA_2\n----------\nN. assignatures esperades: 1\nAssignatures esperades: [ASSIG_4]\n----------\nN. assignatures obtingudes: 1\nAssignatures obtingudes: [ASSIG_4]\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNATURES AULA 3",
+            "output": "\n\nTEST ASSIGNATURES AULA 3\n=========================\nCodi aula: AULA_3\n----------\nN. assignatures esperades: 0\nAssignatures esperades: []\n----------\nN. assignatures obtingudes: 0\nAssignatures obtingudes: []\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST ASSIGNATURES AULA 4",
+            "output": "\n\nTEST ASSIGNATURES AULA 4\n=========================\nCodi aula: AULA_4\n----------\nN. assignatures esperades: 2\nAssignatures esperades: [ASSIG_2, ASSIG_5]\n----------\nN. assignatures obtingudes: 2\nAssignatures obtingudes: [ASSIG_2, ASSIG_5]\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        },
+        {
+            "name": "TEST RESERVES AULA 2",
+            "output": "\n\nIniciant test metode reservesAula\n=================================\n\nReserves de l'aula AULA_2\n------------------------\nContingut esperat del fitxer: \nDIMARTS 10 12 1 15\nDILLUNS 10 12 1 15\n----------\nEscrivint reserves al fitxer reserves_aula_2.txt\n----------\nContingut obtingut del fitxer: \nDIMARTS 10 12 1 15\nDILLUNS 10 12 1 15\n----------\nCORRECTE\n-----------------------------------------------\n",
+            "status": "passed",
+            "visibility": "visible"
+        }
+    ],
+    "visibility": "visible"
+}

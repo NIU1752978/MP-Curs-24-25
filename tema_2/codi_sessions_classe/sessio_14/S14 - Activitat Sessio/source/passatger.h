@@ -7,7 +7,7 @@ using namespace std;
 class Passatger
 {
 public:
-	Passatger() {}
+	Passatger() { m_dni = "", m_nom = ""; }
 	Passatger(const string& dni, const string& nom) : m_dni(dni), m_nom(nom) {}
 	void setDni(const string& dni) { m_dni = dni; }
 	void setNom(const string& nom) { m_nom = nom; }
