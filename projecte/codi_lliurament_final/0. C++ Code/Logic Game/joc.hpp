@@ -17,7 +17,8 @@ public:
     
     
 private:
-
+    int m_fila;
+    int m_columna;
 };
 
 #endif 

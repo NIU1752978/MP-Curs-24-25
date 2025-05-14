@@ -24,17 +24,35 @@ bool Joc::actualitza(int mousePosX, int mousePosY, bool mouseStatus)
 	//          (GRAFIC_FONS,0,0) i 
 	//          (GRAFIC_TAULER, POS_X_TAULER, POS_Y_TAULER)
 
- 
-
 
 	//TODO 1.3: Dibuixar a pantalla el gràfic amb el tauler i una fitxa blanca a la posició (fila, columna ) del tauler
 
+	GraphicManager::getInstance()->drawSprite(GRAFIC_FONS, 0, 0);
+	GraphicManager::getInstance()->drawSprite(GRAFIC_TAULER, POS_X_TAULER, POS_Y_TAULER);
+
+	if ((mouseStatus) && (mousePosX >= (POS_X_TAULER + CASELLA_INICIAL_X)) &&
+		(mousePosY >= POS_Y_TAULER + CASELLA_INICIAL_Y) &&
+		(mousePosX <= (POS_X_TAULER + CASELLA_INICIAL_X + AMPLADA_CASELLA * NUM_COLS_TAULER)) &&
+		(mousePosY <= (POS_Y_TAULER + CASELLA_INICIAL_Y + ALCADA_CASELLA * NUM_FILES_TAULER)))
+
+	{
+		m_fila = (mousePosY - (POS_Y_TAULER + CASELLA_INICIAL_Y)) / ALCADA_CASELLA;
+		m_columna = (mousePosX - (POS_X_TAULER + CASELLA_INICIAL_X)) / AMPLADA_CASELLA;
+	}
+	int posX = POS_X_TAULER + CASELLA_INICIAL_X + m_columna * AMPLADA_CASELLA;
+	int posY = POS_Y_TAULER + CASELLA_INICIAL_Y + m_fila * ALCADA_CASELLA;
+	GraphicManager::getInstance()->drawSprite(GRAFIC_FITXA_BLANCA, posX, posY);
+
+	int posTextX = POS_X_TAULER;
+	int posTextY = POS_Y_TAULER + (ALCADA_CASELLA * NUM_FILES_TAULER) + 120;
+	std::string msg = "PosX: " + to_string(mousePosX) + ", PosY: " + to_string(mousePosY);
+	GraphicManager::getInstance()->drawFont(FONT_WHITE_30, posTextX, posTextY, 0.8, msg);
 
 	//TODO 2: Interactuar amb el ratolí.
 	//------------------------------------------------------------------
 	//TODO 2.1: Dibuixar la fitxa blanca al tauler només si estem pressionant el botó del ratolí
 
-
+	
 
     //TODO 2.2: Dibuixar la fitxa blanca al tauler només si estem pressionant el botó del ratolí i el ratolí
     // està dins del límits del tauler
